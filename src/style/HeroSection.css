@@ -1,0 +1,41 @@
+/* HeroSection.css */
+
+.hero-section {
+  position: relative;
+  background-image: url("../assets/aiImgred.jpg");
+  background-size: cover;
+  background-position: center center;
+  height: 450px;
+  top: -10px;
+  left: -8px;
+  opacity: 0.8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-subtitle {
+  font-size: 2em;
+  color: rgb(243, 83, 83);
+  font-weight: 900;
+  opacity: 1; /* Adjust the opacity as needed */
+}
+
+@media (max-width: 600px) {
+  .hero-title {
+    font-size: 1.5em;
+  }
+  .hero-subtitle{
+    font-size: 1em;
+  }
+}

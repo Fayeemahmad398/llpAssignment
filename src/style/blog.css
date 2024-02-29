@@ -1,0 +1,32 @@
+.card-container {
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-items: center;
+  justify-content: space-between;
+}
+.blogs {
+  margin-top: 80px;
+}
+
+.card-each:hover {
+  max-height: 460px;
+}
+
+@media (max-width: 1000px) {
+  .card-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .card-each{
+    margin-top: 20px;
+  }
+}
+@media (max-width: 700px) {
+  .card-container {
+    grid-template-columns: 1fr;
+  }
+  .card-each{
+    margin-top: 20px;
+  }
+}
